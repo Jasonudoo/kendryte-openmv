@@ -110,7 +110,7 @@ STATIC mp_obj_t machine_init_helper(machine_nt35310_obj_t *self)
 	lcd_set_direction(DIR_YX_LRUD);
 	lcd_clear(BLUE);
 
-	lcd_draw_string(30, 100, "OpenMV Base on MaixPy @ K210", RED);
+	lcd_draw_string(30, 100, "OpenMV Base on MaixPy @kendryte K210", RED);
 
 	lcd_init_flag = 1;
 	return mp_const_none;
