@@ -19,23 +19,23 @@ for i in range(len(file_list)):
 # lcd init
 st = machine.nt35310()
 st.init()
-for i in range(9999):
-    print()
+# for i in range(9999):
+#     print()
 
 # ov init
 ov = machine.ov2640()
 ov.init()
 # ov.lcdshow()
 
-# for led
-led = machine.led()
-led.init()
-led.left_on()
-led.right_on()
+# # for led
+# led = machine.led()
+# led.init()
+# led.left_on()
+# led.right_on()
 
-tripleled = machine.ws2812()
-tripleled.init()
-tripleled.green()
+# tripleled = machine.ws2812()
+# tripleled.init()
+# tripleled.green()
 
 # example1: img show
 # while(True):
@@ -66,15 +66,15 @@ tripleled.green()
 #	nop = img.show()
 
 # examle4: face detect
-face_cascade = image.HaarCascade("frontalface", stages=100)
-print(face_cascade)
-while (True):
-    img = sensor.snapshot()
-    objects = img.find_features(face_cascade, threshold=1.00, scale=1.1)
-    for r in objects:
-        img.draw_rectangle(r, color=(0, 255, 255))
-        print(r)
-    nop = img.show()
+# face_cascade = image.HaarCascade("frontalface", stages=100)
+# print(face_cascade)
+# while (True):
+#     img = sensor.snapshot()
+#     objects = img.find_features(face_cascade, threshold=1.00, scale=1.1)
+#     for r in objects:
+#         img.draw_rectangle(r, color=(0, 255, 255))
+#         print(r)
+#     nop = img.show()
 
 # examle5: data matrix
 # while(True):

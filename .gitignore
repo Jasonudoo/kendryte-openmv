@@ -1,1 +1,5 @@
 build
+src/openmv/src/micropython/mpy-cross/mpy-cross
+src/openmv/src/micropython/mpy-cross/mpy-cross.map
+src/openmv/src/micropython/omv/
+src/openmv/src/micropython/ports/k210-standalone/micropython.a
