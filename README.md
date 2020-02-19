@@ -1,3 +1,5 @@
+## This project have merge to MaixPy project, don't try compile it
+
 OpenMV for Kendryte K210
 ======
 Special thanks to **DeepVISION**, they are enthusiastic and we were enjoyable working with them in this project.
